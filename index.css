@@ -1,0 +1,135 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 0.9rem;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+img {
+  max-width: 100%;
+}
+
+
+body {
+}
+
+.container {
+  max-width: 570px;
+  margin: 0.5em auto;
+  border: 1px solid #696969;
+  padding: 0.4em;
+  background-color: gray;
+  border-radius: 3%;
+  
+}
+
+
+.icon-img,
+.chat-img,
+.logo-img {
+  min-width: 35px;
+  max-height: 35px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.logo-img {
+  min-width: 75px;
+}
+
+#card .dog-img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+#card {
+  position: relative;
+  width: 100%;
+}
+
+.dog-info {
+  position: absolute;
+  color: white;
+  bottom: 10px;
+  left: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.dog-bio {
+  color: #b7b7b7;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.splitter {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  max-width: 150px;
+  margin: 1em 2em;
+  padding: 2.7em;
+  border-radius: 50%;
+  border: hidden;
+  cursor: pointer;
+}
+
+#reject-button:hover,
+#rejact-button:focus {
+  background: #ffe7ef;
+}
+
+#accept-button:hover,
+#accept-button:focus {
+  background: #dbfff4;
+}
+
+
+.container-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;v
+ 
+}
+
+.container-card {
+  max-width: 570px;
+  margin: .5em auto;
+  border: 1px solid #696969;
+  padding: 0.4em;
+  background-color: gray;
+  border-radius: 3%;
+ 
+  
+}
+
+ 
+
+  .badge {
+    width: 180px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    transform: rotateZ(-30deg);
+    display: none;
+}
+ 
+.render-end {
+  text-align: center;
+  height: 50vh;
+
+} 
